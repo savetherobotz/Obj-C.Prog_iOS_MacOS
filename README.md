@@ -1,4 +1,3 @@
-Obj-C.Prog_iOS_MacOS
-====================
+Objective-C. Программирование для iOS и MacOS.
 
-Objective-C Programming: The Big Nerd Ranch Guide. -=Exercises=-
+Упражнения для самостоятельной работы.
