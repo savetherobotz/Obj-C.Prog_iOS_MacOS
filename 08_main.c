@@ -7,6 +7,7 @@
  * числа. Какое наибольшее число может быть представлено этим типом? */
 
 #include <stdio.h>
+#include <limits.h>
 
 int main(int argc, const char * argv[])
 {
@@ -15,15 +16,11 @@ int main(int argc, const char * argv[])
     
     /*Наименьшее и наибольшее число, которое представлено short
      min -32768, max 32767 */ 
-    short x = -pow (2, 16);
-    short y = pow (2, 16);
-    printf("Min short value is %d\n", x);
-    printf("Max short value is %d\n", y);
-        
+    printf("Min short value is %d\n", SHRT_MIN);
+    printf("Max short value is %d\n", SHRT_MAX);
+                
     /*Наибольшее число, которое представлено unsigned short
      max 65535 */ 
-    unsigned short i = pow (2, 16);
-    printf("Max unsigned short value is %u\n", i);
-    
+    printf("Max unsigned short value is %u\n", USHRT_MAX);
     return 0;
 }
