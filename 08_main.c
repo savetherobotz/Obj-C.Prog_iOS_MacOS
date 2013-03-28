@@ -6,8 +6,8 @@
  * переменной типа unsigned short могут храниться только неотрицательные
  * числа. Какое наибольшее число может быть представлено этим типом? */
 
-include <stdio.h>
-include <limits.h>
+#include <stdio.h>
+#include <limits.h>
 
 int main(int argc, const char * argv[])
 {
